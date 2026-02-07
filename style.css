@@ -1,21 +1,82 @@
-body{
-    background-color: green;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fa;
+    margin: 0;
+    padding: 0;
 }
-*{
+
+/* Main container */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid #6fa8dc;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background: linear-gradient(#9ad0f5, #6fa8dc);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #e8f2fb;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #6fa8dc;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #1c4587;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Content area */
+.content {
+    padding: 20px;
     text-align: center;
 }
-            
-            ol {
-    list-style-position: inside;
-    
-    padding-left: 0;
-    margin: 0px;
-}
-    li{
-        margin: 10px;
-    }
 
-    h1,h2,ol{
-        color: white;
-    }
-    
+/* Tables */
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+th {
+    background-color: #3d85c6;
+    color: white;
+}
+
+/* Staff table header */
+.staff th {
+    background-color: #38761d;
+}
+
+/* Section titles */
+h2 {
+    color: #cc0000;
+}
+
+    .footer-note {
+    text-align: right;
+    font-weight: bold;
+    color: #1c4587;
+}
