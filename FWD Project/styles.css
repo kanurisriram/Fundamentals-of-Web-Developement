@@ -15,7 +15,7 @@ body {
     justify-content: center;
     padding: 20px;
     line-height: 1.6;
-    overflow: hidden;
+     scroll-behavior: smooth;
 }
 
 .login-container {
