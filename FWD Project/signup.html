@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" type="text/css" href="signup.css">
+    </head>
+    <body>
+        <h1>Sign Up </h1>
+        <form action="/submit_signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="shopname">Shop Name:</label>
+            <input type="text" id="shopname" name="shopname" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+            <input type="submit" value="Sign Up">
+            <label for="login"><br><br>
+                <a href="Loginpage.html">Already have an account? Login</a>
+            </label>
+            <label for="terms"><br><br>
+                <input type="checkbox" id="terms" name="terms" required> I agree to the <a href="/terms">Terms and Conditions</a>
+        </form>
+    </body>
+</html>
