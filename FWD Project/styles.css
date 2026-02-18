@@ -634,3 +634,52 @@ body {
         opacity: 0.5;
     }
 }
+/* ===== MOBILE FIX CONTROLS ===== */
+@media (max-width: 768px) {
+
+    .login-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .login-card {
+        width: 100%;
+        padding: 22px;
+        border-radius: 14px;
+    }
+
+    .input-wrapper input {
+        font-size: 15px;
+        padding: 14px;
+    }
+
+    .login-btn {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .social-btn {
+        padding: 14px;
+        font-size: 13px;
+    }
+
+    .login-header h2 {
+        font-size: 1.6rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 420px) {
+
+    .login-card {
+        padding: 18px;
+    }
+
+    .logo-icon {
+        font-size: 2rem;
+    }
+}
